@@ -25,15 +25,26 @@ A Python-based data analysis and forecasting project focused on studying electri
 
 ## 📌 How to Run
 
+## 📌 How to Run
+
 1. Clone the repository:
    ```bash
-   git clone https://github.com//Powerstation_Frequency_Analysis.git
-   cd Powerstation_Frequency_Analysis
+   git clone https://github.com/kihtrak86/POWERSTATION-FREQUENCY-ANALYSIS.git
    ```
 
-2. Install the required packages:
+2. Navigate to the project folder:
+   ```bash
+   cd POWERSTATION-FREQUENCY-ANALYSIS
+   ```
+
+3. Install the required dependencies:
    ```bash
    pip install -r requirements.txt
    ```
 
-3. Open the Jupyter Notebook and run all cells.
+4. Launch Jupyter Notebook:
+   ```bash
+   jupyter notebook
+   ```
+
+5. Open the notebook and run all cells to reproduce the analysis and forecasting results.
