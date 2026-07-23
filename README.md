@@ -1,27 +1,25 @@
-# ⚡ PowerstationDAV – Frequency Stability Analysis
+# ⚡ Powerstation Frequency Analysis
 
-A Python-based data analysis and forecasting project focused on studying the stability of electric grid frequency using time-series techniques. The dataset is sourced from the [NERLDC (North Eastern Regional Load Despatch Centre)](https://www.nerldc.in/), and the project provides visual and statistical insights into frequency behavior, anomalies, and predictions.
+A Python-based data analysis and forecasting project focused on studying electric grid frequency stability using time-series techniques. The dataset is sourced from the **North Eastern Regional Load Despatch Centre (NERLDC)**, and the project provides statistical insights, visualizations, and forecasting of grid frequency.
 
 ---
 
 ## 📊 Features
 
-- ✅ Cleaned and merged raw CSV data with separate Date and Time columns into a unified datetime format
-- 📈 Visualized grid frequency trends over time using:
-  - Heatmaps (hour vs day patterns)
-  - Boxplots (weekday vs weekend frequency patterns)
-  - Histograms with KDE (frequency distributions)
-- ⚠️ Detected and categorized violations (underfrequency, overfrequency, stable) using thresholding
-- 📅 Compared frequency behavior between weekdays and weekends
-- 📉 Implemented ARIMA and SARIMAX models for frequency forecasting
-- 📊 Evaluated forecasting models using RMSE and visual residual analysis
+- ✅ Cleaned and processed raw frequency data
+- 📈 Visualized frequency trends using line plots, heatmaps, boxplots, and histograms
+- ⚠️ Detected underfrequency and overfrequency violations
+- 📅 Compared weekday and weekend frequency behavior
+- 📉 Forecasted grid frequency using ARIMA and SARIMAX models
+- 📊 Evaluated forecasting performance using RMSE and residual analysis
 
+---
 
 ## 🧠 Technologies Used
 
-- **Python** (Pandas, Matplotlib, Seaborn)
-- **Time Series Modeling**: Statsmodels (ARIMA, SARIMAX), pmdarima
-- **Jupyter Notebook** for exploratory analysis and model development
+- **Python** (Pandas, NumPy, Matplotlib, Seaborn)
+- **Time Series Modeling:** Statsmodels (ARIMA, SARIMAX), pmdarima
+- **Jupyter Notebook**
 
 ---
 
@@ -29,5 +27,13 @@ A Python-based data analysis and forecasting project focused on studying the sta
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/qwerty070806/Powerstation_Frequency_Analysis.git
+   git clone https://github.com//Powerstation_Frequency_Analysis.git
    cd Powerstation_Frequency_Analysis
+   ```
+
+2. Install the required packages:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+3. Open the Jupyter Notebook and run all cells.
