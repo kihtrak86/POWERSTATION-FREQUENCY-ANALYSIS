@@ -1,6 +1,6 @@
 # ⚡ Powerstation Frequency Analysis
 
-A Python-based data analysis and forecasting project focused on studying electric grid frequency stability using time-series techniques. The dataset is sourced from the **North Eastern Regional Load Despatch Centre (NERLDC)**, and the project provides statistical insights, visualizations, and forecasting of grid frequency.
+A Python-based data analysis and forecasting project focused on studying electric grid frequency stability using time-series techniques. The dataset is sourced from the **[North Eastern Regional Load Despatch Centre (NERLDC)](https://www.nerldc.in/)**, and the project provides visual and statistical insights into grid frequency behavior, anomalies, and forecasting.
 
 ---
 
